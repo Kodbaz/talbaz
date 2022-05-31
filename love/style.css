@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+
+*, *::after, ::before {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+
+  font-family: 'Great Vibes', cursive;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+  width: 100vw;
+  height: 100vh;
+
+  color: #e23b3b;
+}
+
+.centered {
+  background-color: #b4b4b4;
+  color: #e23b3b;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  padding: 30px;
+  margin: 30px;
+
+  width: 400px;
+  height: 350px;
+
+  border-radius: 20px;
+  box-shadow: #e23b3b 10px 10px 0;
+}
+
+#generate {
+  font-size: 1.5em;
+
+  padding: 15px;
+  border-radius: 20px;
+  border: none;
+  background-color: #b4b4b4;
+  box-shadow: #e23b3b 10px 10px 0;
+  color: #e23b3b;
+}
+
+.result {
+  text-align: center;
+  font-size: 50px;
+}
+
+#result-boy {
+  transform: skew(-10deg) translateY(-30px);
+}
+
+#result-girl {
+  transform: skew(-10deg) translateY(30px);
+}
+
+@keyframes bump {
+  0.0% {
+    transform: scale(1);
+  }
+
+  20.1% {
+    transform: scale(1);
+  }
+
+  40.3% {
+    transform: scale(1.35);
+  }
+
+  60.1% {
+    transform: scale(1.15);
+  }
+
+  79.6% {
+    transform: scale(1.35);
+  }
+
+  99.5% {
+    transform: scale(1);
+  }
+}
